@@ -24,9 +24,13 @@ Here are some ideas to get you started:
 
 <h4>R.C. Martin’s Software design principles(SOLID)</h4>
  - The Single-Responsibility Principle(SRP) 단일 책임 원칙
+
  - The Open-Closed Principle(OCP) 개방 폐쇄 원칙
+
  - The Liskov Substitution Principle(LSP) 리스코프 치환 원칙
+ 
  - The Interface Segregation Principle(ISP) 인터페이스 분리 원칙
+ 
  - The Dependency Inversion Principle(DIP) 의존 역전 원칙
 
 
