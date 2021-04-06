@@ -15,3 +15,11 @@ Here are some ideas to get you started:
 ![header](https://capsule-render.vercel.app/api?type=wave&color=timeGradient&height=300&section=header&text=OneDayOneCommit&fontSize=45)
 <h3>⚡Architect-of-Design-Pattern</h3>
 <p>
+
+# OOAD
+
+# Design Pattern
+  GoF / GRASP / MVC 
+
+
+![footer](https://capsule-render.vercel.app/api?type=wave&color=timeGradient&height=200&section=footer&fontSize=90)
