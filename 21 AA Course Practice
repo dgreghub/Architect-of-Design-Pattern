@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T14:09:52.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.68" etag="N-VcfrKhtOZgOTDIqaAn" version="14.5.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-06T14:40:29.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.68" etag="WuCEKNmUjJ04xDyaIqof" version="14.5.7" type="github" pages="4">
   <diagram id="dMEcTTxn-8OdakoQdc2E" name="iterator">
     <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,6 +88,9 @@
             <mxGeometry x="500" y="530" width="80" height="20" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="10Yxt_9VvY3664k1XezU-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;TunedChannels&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+createIterator()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="160" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -96,91 +99,91 @@
       <root>
         <mxCell id="G8xU-DvPU8P-Idxg2GMx-0" />
         <mxCell id="G8xU-DvPU8P-Idxg2GMx-1" parent="G8xU-DvPU8P-Idxg2GMx-0" />
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;b style=&quot;font-style: italic&quot;&gt;Character&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ display()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+fight(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;weapon.useWeapon();&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+setWeapon(WeaponBehavior w){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;this.weapon = w;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;b style=&quot;font-style: italic&quot;&gt;Character&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ display()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+fight(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;weapon.useWeapon();&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+setWeapon(WeaponBehavior w){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;this.weapon = w;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="230" y="100" width="190" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;WeaponBehavior&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ useWeapon()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;WeaponBehavior&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ useWeapon()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="790" y="143.75" width="190" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AxeBehavior&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+useWeapon(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;//impl. attack with Axe&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AxeBehavior&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+useWeapon(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;//impl. attack with Axe&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="590" y="360" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;king&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+display(){...}&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;king&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+display(){...}&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="120" y="360" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-6" value="" style="endArrow=block;endFill=0;endSize=12;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" target="G8xU-DvPU8P-Idxg2GMx-2">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-6" value="" style="endArrow=block;endFill=0;endSize=12;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" target="G8xU-DvPU8P-Idxg2GMx-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="370" y="360" as="sourcePoint" />
             <mxPoint x="680" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-7" value="" style="endArrow=block;endFill=0;endSize=12;html=1;exitX=0.544;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-5" target="G8xU-DvPU8P-Idxg2GMx-2">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-7" value="" style="endArrow=block;endFill=0;endSize=12;html=1;exitX=0.544;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-5" target="G8xU-DvPU8P-Idxg2GMx-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="250" y="361" as="sourcePoint" />
             <mxPoint x="300" y="253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-8" value="" style="endArrow=block;endFill=0;endSize=12;html=1;exitX=0.544;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-4" target="G8xU-DvPU8P-Idxg2GMx-3">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-8" value="" style="endArrow=block;endFill=0;endSize=12;html=1;exitX=0.544;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-4" target="G8xU-DvPU8P-Idxg2GMx-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="680" y="377.98" as="sourcePoint" />
             <mxPoint x="772.96" y="270.98" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;Queen&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+display(){...}&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;Queen&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+display(){...}&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="230" y="360" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;Prince&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+display(){...}&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;Prince&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+display(){...}&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="340" y="360" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Knight&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+display(){...}&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Knight&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+display(){...}&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="450" y="360" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;KnifeBehavior&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+useWeapon(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;//impl. attack with Knife&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;KnifeBehavior&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+useWeapon(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;//impl. attack with Knife&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="760" y="360" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BowAndArrowBehavor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+useWeapon(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;//impl. attack with Bow and Arrow&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BowAndArrowBehavor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+useWeapon(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;//impl. attack with Bow and Arrow&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="930" y="360" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SwordBehavior&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+useWeapon(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;//impl. attack with Sword&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SwordBehavior&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+useWeapon(){&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;//impl. attack with Sword&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;}&lt;/p&gt;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="1140" y="360" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-15" value="" style="endArrow=block;endFill=0;endSize=12;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-12" target="G8xU-DvPU8P-Idxg2GMx-3">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-15" value="" style="endArrow=block;endFill=0;endSize=12;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-12" target="G8xU-DvPU8P-Idxg2GMx-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="687.04" y="369.01" as="sourcePoint" />
             <mxPoint x="806" y="203" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-16" value="" style="endArrow=block;endFill=0;endSize=12;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-13" target="G8xU-DvPU8P-Idxg2GMx-3">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-16" value="" style="endArrow=block;endFill=0;endSize=12;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-13" target="G8xU-DvPU8P-Idxg2GMx-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="886.4257425742576" y="357" as="sourcePoint" />
             <mxPoint x="860" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-17" value="" style="endArrow=block;endFill=0;endSize=12;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-14" target="G8xU-DvPU8P-Idxg2GMx-3">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-17" value="" style="endArrow=block;endFill=0;endSize=12;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-14" target="G8xU-DvPU8P-Idxg2GMx-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1040" y="370" as="sourcePoint" />
             <mxPoint x="870" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-18" value="" style="endArrow=block;endFill=0;endSize=12;html=1;entryX=0.458;entryY=1.006;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-9" target="G8xU-DvPU8P-Idxg2GMx-2">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-18" value="" style="endArrow=block;endFill=0;endSize=12;html=1;entryX=0.458;entryY=1.006;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-9" target="G8xU-DvPU8P-Idxg2GMx-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="380" y="370" as="sourcePoint" />
             <mxPoint x="342.5" y="265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-19" value="" style="endArrow=block;endFill=0;endSize=12;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-11" target="G8xU-DvPU8P-Idxg2GMx-2">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-19" value="" style="endArrow=block;endFill=0;endSize=12;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-11" target="G8xU-DvPU8P-Idxg2GMx-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="390" y="380" as="sourcePoint" />
             <mxPoint x="352.5" y="275" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-20" value="" style="startArrow=diamondThin;startFill=0;startSize=14;endArrow=openThin;endFill=0;endSize=6;html=1;exitX=1.005;exitY=0.374;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-2" target="G8xU-DvPU8P-Idxg2GMx-3">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-20" value="" style="startArrow=diamondThin;startFill=0;startSize=14;endArrow=openThin;endFill=0;endSize=6;html=1;exitX=1.005;exitY=0.374;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="G8xU-DvPU8P-Idxg2GMx-1" source="G8xU-DvPU8P-Idxg2GMx-2" target="G8xU-DvPU8P-Idxg2GMx-3" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="670" y="490" as="sourcePoint" />
             <mxPoint x="770" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8xU-DvPU8P-Idxg2GMx-21" value="weapon" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="G8xU-DvPU8P-Idxg2GMx-1">
+        <mxCell id="G8xU-DvPU8P-Idxg2GMx-21" value="weapon" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="G8xU-DvPU8P-Idxg2GMx-1" vertex="1">
           <mxGeometry x="720" y="140" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
@@ -191,6 +194,21 @@
       <root>
         <mxCell id="EBy8x4dM_enn6gD2sK3r-0" />
         <mxCell id="EBy8x4dM_enn6gD2sK3r-1" parent="EBy8x4dM_enn6gD2sK3r-0" />
+        <mxCell id="8Abp7bYglmRMl8RkuntG-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;i&gt;Logger&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&lt;i&gt; log(String msg)&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="EBy8x4dM_enn6gD2sK3r-1">
+          <mxGeometry x="120" y="570" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Abp7bYglmRMl8RkuntG-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;i&gt;Writer&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&lt;i&gt; write()&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="EBy8x4dM_enn6gD2sK3r-1">
+          <mxGeometry x="414" y="570" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Abp7bYglmRMl8RkuntG-2" value="" style="endArrow=open;startArrow=diamond;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startFill=0;endFill=0;" edge="1" parent="EBy8x4dM_enn6gD2sK3r-1" source="8Abp7bYglmRMl8RkuntG-0" target="8Abp7bYglmRMl8RkuntG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="750" as="sourcePoint" />
+            <mxPoint x="440" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Abp7bYglmRMl8RkuntG-3" value="writer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EBy8x4dM_enn6gD2sK3r-1">
+          <mxGeometry x="370" y="585" width="40" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
