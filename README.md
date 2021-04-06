@@ -23,6 +23,7 @@ Here are some ideas to get you started:
   GoF / GRASP / MVC 
 
 <h4>R.C. Martin’s Software design principles(SOLID)</h4>
+ 
  - The Single-Responsibility Principle(SRP) 단일 책임 원칙
 
  - The Open-Closed Principle(OCP) 개방 폐쇄 원칙
