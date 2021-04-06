@@ -17,6 +17,7 @@ Here are some ideas to get you started:
 <p>
 
 # OOAD
+  OOP / OOAD / UML
 
 # Design Pattern
   GoF / GRASP / MVC 
