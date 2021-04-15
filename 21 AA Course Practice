@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T13:21:49.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="mMaHDEcjQP9qZDPn1IO9" version="14.6.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-04-15T13:34:05.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="WEDyy1bkI9pj_y2QWRIy" version="14.6.0" type="github" pages="20">
   <diagram id="JAuJNuvD0h6Eu67rRK30" name="strategy">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1586,7 +1586,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OVSLMD_F2Xs5CquI4qx6" name="exam05_classDiagram">
-    <mxGraphModel dx="1422" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="co_V1sgoMj67Kh8QZWxW-0" />
         <mxCell id="co_V1sgoMj67Kh8QZWxW-1" parent="co_V1sgoMj67Kh8QZWxW-0" />
@@ -1647,8 +1647,17 @@
         <mxCell id="co_V1sgoMj67Kh8QZWxW-20" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="co_V1sgoMj67Kh8QZWxW-1">
           <mxGeometry x="250" y="400" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="co_V1sgoMj67Kh8QZWxW-21" value="&lt;h1&gt;Class Detail&lt;/h1&gt;&lt;p&gt;Class 는 대문자&lt;/p&gt;&lt;p&gt;Object는 소문자&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="co_V1sgoMj67Kh8QZWxW-1">
-          <mxGeometry x="169" y="-20" width="190" height="120" as="geometry" />
+        <mxCell id="co_V1sgoMj67Kh8QZWxW-21" value="&lt;h1&gt;Class Detail&lt;/h1&gt;&lt;p&gt;Class 는 대문자&lt;/p&gt;&lt;p&gt;Object는 소문자&lt;/p&gt;&lt;p&gt;그냥 실선은 Association 관계이다. 일정 시간 동안 함께 일하면 Association 이다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="co_V1sgoMj67Kh8QZWxW-1">
+          <mxGeometry x="169" y="-20" width="481" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="co_V1sgoMj67Kh8QZWxW-22" value="&lt;h1&gt;Records-sale-of&lt;/h1&gt;&lt;p&gt;Item과 Sales LineItem 은 Records-sale 의 일을 수행한다.&lt;/p&gt;&lt;p&gt;아이템 중 판매가 가능한&amp;nbsp;&lt;span&gt;Item과 Sales LineItem 은 Records-sale 의 일을 수행한다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;아이템 중 판매가 가능한 품목을 기록한다.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="co_V1sgoMj67Kh8QZWxW-1">
+          <mxGeometry x="400" y="190" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="co_V1sgoMj67Kh8QZWxW-23" value="&lt;h1&gt;Contained-in&lt;/h1&gt;&lt;p&gt;Sales LineItem 과 Sale은 Contained-in 의 일을 수행한다.&lt;/p&gt;&lt;p&gt;판매가 가능한 상품을 판매한다.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="co_V1sgoMj67Kh8QZWxW-1">
+          <mxGeometry x="-90" y="200" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="co_V1sgoMj67Kh8QZWxW-24" value="&lt;h1&gt;Paid-by&lt;/h1&gt;&lt;p&gt;Sale과 Payment는 Paid-by 의 일을 수행한다.&lt;/p&gt;&lt;p&gt;판매할 상품을 결제한다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="co_V1sgoMj67Kh8QZWxW-1">
+          <mxGeometry x="-90" y="360" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
