@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T06:16:07.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="AQ9h-1jcKDsM6i-czxmA" version="14.6.1" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2021-04-18T06:21:09.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="1m3UkAJv4x23efBXrk78" version="14.6.1" type="github" pages="23">
   <diagram id="JAuJNuvD0h6Eu67rRK30" name="strategy">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1671,7 +1671,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ctaiIpR0zhx9W1wERnw5" name="Strategy_Duck">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wQjBTbGC73vNQYMruVXH-0" />
         <mxCell id="wQjBTbGC73vNQYMruVXH-1" parent="wQjBTbGC73vNQYMruVXH-0" />
@@ -1714,6 +1714,14 @@
             <mxPoint x="470" y="286.98800000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FWO_Dj1J68OO1D7yxyBs" name="Strategy_Big Picture">
+    <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="HSXwnQ_7MPb9wKGplsij-0" />
+        <mxCell id="HSXwnQ_7MPb9wKGplsij-1" parent="HSXwnQ_7MPb9wKGplsij-0" />
       </root>
     </mxGraphModel>
   </diagram>
