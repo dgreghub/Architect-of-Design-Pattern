@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T06:21:09.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="1m3UkAJv4x23efBXrk78" version="14.6.1" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2021-04-18T06:31:41.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="uKSrqARV8oPLnXleUq5V" version="14.6.1" type="github" pages="23">
   <diagram id="JAuJNuvD0h6Eu67rRK30" name="strategy">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1722,6 +1722,18 @@
       <root>
         <mxCell id="HSXwnQ_7MPb9wKGplsij-0" />
         <mxCell id="HSXwnQ_7MPb9wKGplsij-1" parent="HSXwnQ_7MPb9wKGplsij-0" />
+        <mxCell id="HSXwnQ_7MPb9wKGplsij-6" value="{abstract}&#xa;Duck" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HSXwnQ_7MPb9wKGplsij-1">
+          <mxGeometry x="130" y="200" width="350" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="HSXwnQ_7MPb9wKGplsij-7" value="flyBehavior:FlyBehavior    //object composition&#xa;quackBehavior:QuackBehavior   //object composition&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HSXwnQ_7MPb9wKGplsij-6">
+          <mxGeometry y="40" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HSXwnQ_7MPb9wKGplsij-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HSXwnQ_7MPb9wKGplsij-6">
+          <mxGeometry y="90" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HSXwnQ_7MPb9wKGplsij-9" value="performFly()&#xa;{ flyBehavior.fly()} // delegation&#xa;performQuack*()&#xa;{ quackBehavior.quack()} // delegation&#xa;swim () &#xa;{ //swimming impl} " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HSXwnQ_7MPb9wKGplsij-6">
+          <mxGeometry y="98" width="350" height="322" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
