@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T13:06:07.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="UVGVrbitCeDctPK_CybK" version="14.6.1" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2021-04-19T13:16:25.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="dNXZBjZAIbXinQj4rjCT" version="14.6.1" type="github" pages="25">
   <diagram id="JAuJNuvD0h6Eu67rRK30" name="strategy">
     <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1979,6 +1979,14 @@
         <mxCell id="8xlpAsjzm_QxjxafYdre-20" value="Iterator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8xlpAsjzm_QxjxafYdre-1">
           <mxGeometry x="880" y="140" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zx7xNlqhPc2vAShIz5bg" name="Page-25">
+    <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Aays87FVMzJO67yMMcqG-0" />
+        <mxCell id="Aays87FVMzJO67yMMcqG-1" parent="Aays87FVMzJO67yMMcqG-0" />
       </root>
     </mxGraphModel>
   </diagram>
