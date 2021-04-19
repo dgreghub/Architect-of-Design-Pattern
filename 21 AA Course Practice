@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T13:16:25.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="dNXZBjZAIbXinQj4rjCT" version="14.6.1" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2021-04-19T13:18:28.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="jJRf8BcyzO3HJF35PqBj" version="14.6.1" type="github" pages="25">
   <diagram id="JAuJNuvD0h6Eu67rRK30" name="strategy">
     <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1982,11 +1982,17 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="zx7xNlqhPc2vAShIz5bg" name="Page-25">
+  <diagram id="zx7xNlqhPc2vAShIz5bg" name="Design Pattern">
     <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Aays87FVMzJO67yMMcqG-0" />
         <mxCell id="Aays87FVMzJO67yMMcqG-1" parent="Aays87FVMzJO67yMMcqG-0" />
+        <mxCell id="Aays87FVMzJO67yMMcqG-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Aays87FVMzJO67yMMcqG-1">
+          <mxGeometry x="100" y="10" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Aays87FVMzJO67yMMcqG-3" value="&lt;h1&gt;Strategy&lt;/h1&gt;&lt;span id=&quot;docs-internal-guid-4076c755-7fff-c68b-bb8f-8db2b3123412&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(255 , 0 , 0) ; background-color: transparent ; font-weight: 700 ; vertical-align: baseline&quot;&gt;object composition&lt;/span&gt;&lt;/span&gt;&lt;p&gt;&lt;span id=&quot;docs-internal-guid-07f8d741-7fff-473c-0d1f-c901467182a9&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;다른객체에 대한 Reference를 한 객체가 들고 있는다.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span id=&quot;docs-internal-guid-948a3fff-7fff-eebe-6c6c-3ee828e750b9&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(255 , 0 , 0) ; background-color: transparent ; font-weight: 700 ; vertical-align: baseline&quot;&gt;delegation&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span id=&quot;docs-internal-guid-b8b025cc-7fff-6d43-3891-62a282b7cf3e&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;해당 객체한테, 내가 할일을 대신 맡긴다.&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Aays87FVMzJO67yMMcqG-1">
+          <mxGeometry x="130" y="70" width="280" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
