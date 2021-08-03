@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T11:33:09.363Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="RiOTUbuIxWveftUQeETr" version="14.9.2" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2021-08-03T11:45:53.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="2bJgt52q_CndBEbR6fQa" version="14.9.2" type="github" pages="27">
   <diagram id="JAuJNuvD0h6Eu67rRK30" name="strategy">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2281,37 +2281,69 @@
         <mxCell id="q1LoID-ejQDxVMLlwI3k-0" />
         <mxCell id="q1LoID-ejQDxVMLlwI3k-1" parent="q1LoID-ejQDxVMLlwI3k-0" />
         <mxCell id="q1LoID-ejQDxVMLlwI3k-2" value="Smart &lt;br&gt;Mobility Service" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
-          <mxGeometry x="300" y="300" width="120" height="120" as="geometry" />
+          <mxGeometry x="380" y="380" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="q1LoID-ejQDxVMLlwI3k-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Smart Mobility User&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
-          <mxGeometry x="70" y="140" width="120" height="50" as="geometry" />
+          <mxGeometry x="150" y="220" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q1LoID-ejQDxVMLlwI3k-4" value="" style="curved=1;endArrow=classic;html=1;entryX=0.192;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="q1LoID-ejQDxVMLlwI3k-1" source="q1LoID-ejQDxVMLlwI3k-3" target="q1LoID-ejQDxVMLlwI3k-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="210" as="sourcePoint" />
-            <mxPoint x="440" y="370" as="targetPoint" />
+            <mxPoint x="270" y="290" as="sourcePoint" />
+            <mxPoint x="520" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="200" />
-              <mxPoint x="290" y="230" />
-              <mxPoint x="310" y="260" />
+              <mxPoint x="310" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="q1LoID-ejQDxVMLlwI3k-5" value="Mobility 검색/예약" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
-          <mxGeometry x="210" y="200" width="120" height="30" as="geometry" />
+          <mxGeometry x="260" y="290" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q1LoID-ejQDxVMLlwI3k-6" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.092;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="q1LoID-ejQDxVMLlwI3k-1" source="q1LoID-ejQDxVMLlwI3k-3" target="q1LoID-ejQDxVMLlwI3k-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="400" as="sourcePoint" />
-            <mxPoint x="270" y="330" as="targetPoint" />
+            <mxPoint x="470" y="480" as="sourcePoint" />
+            <mxPoint x="350" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="260" />
-              <mxPoint x="210" y="290" />
+              <mxPoint x="240" y="340" />
+              <mxPoint x="290" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1LoID-ejQDxVMLlwI3k-7" value="Mobility &lt;br&gt;이용금액 지불" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
-          <mxGeometry x="130" y="260" width="120" height="30" as="geometry" />
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-7" value="Mobility 및 Station&lt;br&gt;이용금액 지불" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
+          <mxGeometry x="210" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-8" value="&amp;nbsp;200만 명" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#ffffff;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
+          <mxGeometry x="110" y="130" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-13" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="q1LoID-ejQDxVMLlwI3k-1" source="q1LoID-ejQDxVMLlwI3k-3" target="q1LoID-ejQDxVMLlwI3k-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="470" as="sourcePoint" />
+            <mxPoint x="520" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-14" value="Station : 20,000개소&lt;br&gt;Mobility : Station당 최대 100대" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=#ffffff;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
+          <mxGeometry x="110" y="20" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-15" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.35;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="q1LoID-ejQDxVMLlwI3k-1" source="q1LoID-ejQDxVMLlwI3k-3" target="q1LoID-ejQDxVMLlwI3k-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="245" />
+              <mxPoint x="410" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-16" value="Station 대여서비스" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
+          <mxGeometry x="320" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-17" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Smart Mobility&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;회수인력&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="q1LoID-ejQDxVMLlwI3k-1">
+          <mxGeometry x="400" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-18" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="q1LoID-ejQDxVMLlwI3k-1" source="q1LoID-ejQDxVMLlwI3k-17" target="q1LoID-ejQDxVMLlwI3k-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
