@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T12:12:08.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="p-mbVxGI7uax6CdJ-Qd-" version="14.9.3" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2021-08-04T12:42:42.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="bhj6HqN0mKFIate0MTcT" version="14.9.3" type="github" pages="27">
   <diagram id="JAuJNuvD0h6Eu67rRK30" name="strategy">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2351,10 +2351,10 @@
             <mxPoint x="440" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1LoID-ejQDxVMLlwI3k-22" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Smart Mobility&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;관제센터&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="q1LoID-ejQDxVMLlwI3k-1" vertex="1">
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-22" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Smart Mobility&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;관제 센터 인력&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="q1LoID-ejQDxVMLlwI3k-1" vertex="1">
           <mxGeometry x="680" y="160" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="q1LoID-ejQDxVMLlwI3k-31" value="1개" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#ffffff;" parent="q1LoID-ejQDxVMLlwI3k-1" vertex="1">
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-31" value="5명" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#ffffff;" parent="q1LoID-ejQDxVMLlwI3k-1" vertex="1">
           <mxGeometry x="690" y="70" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q1LoID-ejQDxVMLlwI3k-32" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="q1LoID-ejQDxVMLlwI3k-1" source="q1LoID-ejQDxVMLlwI3k-22" target="q1LoID-ejQDxVMLlwI3k-31" edge="1">
