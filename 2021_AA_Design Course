@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-06T14:31:23.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="CM1KhuuRnf8BvYgEbKpR" version="14.9.4" type="github" pages="28">
+<mxfile host="app.diagrams.net" modified="2021-08-06T14:31:43.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="lmJHKZMFqv206nNl0HiD" version="14.9.4" type="github" pages="28">
   <diagram id="JAuJNuvD0h6Eu67rRK30" name="strategy">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2533,7 +2533,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1LoID-ejQDxVMLlwI3k-19" value="Mobility &lt;br&gt;반납 및 정산" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" parent="q1LoID-ejQDxVMLlwI3k-1" vertex="1">
+        <mxCell id="q1LoID-ejQDxVMLlwI3k-19" value="Mobility &lt;br&gt;회수 및 정산" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" parent="q1LoID-ejQDxVMLlwI3k-1" vertex="1">
           <mxGeometry x="440" y="238" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iQ1ETpt_oiQgdZYXOyKe-2" value="" style="curved=1;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#6C92E0;" parent="q1LoID-ejQDxVMLlwI3k-1" edge="1">
